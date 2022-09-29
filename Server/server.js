@@ -8,7 +8,7 @@ app.use(express.static(publicPath));
 app.get('*', (req, res) => {
     res.sendFile(path.join(publicPath, 'index.html'));
 });
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log('Server is up!');
 });
 app.set("port", PORT);
