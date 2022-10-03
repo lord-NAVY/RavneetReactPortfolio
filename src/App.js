@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import MediaLinks from "./components/MediaLinks";
 
 
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Portfolio />
       <MediaLinks />
       <Contact />
+
 
     </div>
   );
