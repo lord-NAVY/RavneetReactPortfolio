@@ -14,22 +14,26 @@ const NavBar = () => {
       id: 2,
       link: "about",
     },
-    
     {
       id: 3,
-      link: "experience",
+      link: "project",
     },
     {
       id: 4,
-      link: "contact",
+      link: "experience",
     },
+    
+    {
+        id: 5,
+        link:"contact"
+    }
   ];
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4  bg-gradient-to-b from-green via-yellow to-blue-800 fixed">
         
       <div>
-        <h1 className="text-5xl font-signature ml-2 opacity-4 text-blue invisible lg:visible">Ravneet</h1>
+        <h1 className="text-5xl font-signature ml-2 opacity-4 text-blue invisible lg:visible scroll:invisible ">Ravneet</h1>
       </div>
 
       <ul className="hidden md:flex">

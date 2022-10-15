@@ -3,10 +3,11 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+
   theme: {
     extend: {
       animation: {
-        blob: "blob 5s infinite",
+        blob: "blob 7s infinite",
       },
       keyframes: {
         blob: {

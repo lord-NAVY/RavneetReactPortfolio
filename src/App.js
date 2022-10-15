@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import MediaLinks from "./components/MediaLinks";
+import Project from "./components/Project";
 
 
 
@@ -14,9 +15,11 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Project />
       <Portfolio />
       <MediaLinks />
       <Contact />
+
 
 
     </div>

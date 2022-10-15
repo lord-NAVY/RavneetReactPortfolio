@@ -13,7 +13,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline">
             Contact
           </p>
-          <div class="absolute -bottom-11 left-40 w-72 h-92 bg-green-300 rounded  filter blur-xl opacity-70 animate-blob animation-delay-6000"></div>
+          
           <div class="h-4 w-48 bg-blue-300 rounded"></div>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
@@ -28,19 +28,19 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             ></textarea>
 
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
