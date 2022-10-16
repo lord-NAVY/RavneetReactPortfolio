@@ -1,7 +1,7 @@
 import React from "react";
-import surveyFactory from "/Users/ravneetsingh/ReactPortfolio/ravneetsingh-portfolio/src/assets/surveyFactorySc.png";
-import Biodiversity from "/Users/ravneetsingh/ReactPortfolio/ravneetsingh-portfolio/src/assets/Biodiversity.png";
-import FormApp from "/Users/ravneetsingh/ReactPortfolio/ravneetsingh-portfolio/src/assets/formApp.png";
+import surveyFactory from "../assets/surveyFactorySc.png";
+import Biodiversity from "../assets/Biodiversity.png";
+import FormApp from "../assets/formApp.png";
 //import { Link } from "react-scroll";
 
 
